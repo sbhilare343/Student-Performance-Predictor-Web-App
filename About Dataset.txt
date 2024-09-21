@@ -1,0 +1,14 @@
+This dataset contains 50,000 rows and simulates student performance data. It includes various attributes that might influence academic outcomes:
+
+1. **Attendance**: Number of days attended (random integers between 70 and 100).
+2. **Study Hours**: Weekly study hours (random integers between 10 and 30).
+3. **Homework Completion**: Percentage of homework completed (random integers between 75 and 100).
+4. **Test Scores**: Test scores out of 100 (random integers between 50 and 100).
+5. **SES**: Socioeconomic status, with three categories: Low, Middle, and High.
+6. **Extracurricular Activities**: Participation in activities, ranging from 0 to 4.
+7. **Parent Involvement**: Level of parental involvement: Low, Medium, or High.
+8. **Tutoring**: Whether the student receives tutoring (Yes or No).
+9. **Sleep Hours**: Hours of sleep per night (random integers between 6 and 9).
+10. **Health Conditions**: Health status (None, Mild, or Severe).
+
+The **Final Grade** is computed using a weighted formula based on the above factors, such as attendance, study hours, test scores, and adjustments for socioeconomic status, extracurricular involvement, parental involvement, tutoring, sleep hours, and health conditions. The grade is capped between 0 and 100.
